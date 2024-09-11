@@ -5,8 +5,8 @@ const main = async () => {
 
   // Deploy contract
   const nftContract = await nftContractFactory.deploy();
-  await nftContract.deployed();
-  console.log('✅ Contract deployed to:', nftContract.address);
+  await nftContract.deployed;
+  console.log('✅ Contract deployed to:', nftContract.target);
 
   // SVG image that you want to mint
   const svg = `<svg xmlns='http://www.w3.org/2000/svg' width='1024' height='1024'>
